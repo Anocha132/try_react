@@ -7,8 +7,8 @@ import Input from './Input';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Input/>
+      <Navbar />
+      <Input />
     </div>
   );
 }
