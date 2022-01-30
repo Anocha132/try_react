@@ -1,6 +1,7 @@
 import React from "react";
+import propTypes from "prop-types";
 
-function Input() {
+function Input({ addPost }) {
     return (
     <div className="Input">
         <div className="Input__header">Create Post</div>
@@ -8,5 +9,9 @@ function Input() {
     </div>
     );
 }
+
+Input.propTypes = {
+    addPost: propTypes.func.isRequired
+};
 
 export default Input
