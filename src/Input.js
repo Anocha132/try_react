@@ -11,7 +11,7 @@ function Input({ addPost }) {
     function onKeyDown(event) {
         const title = event.target.value;
 
-        if (event.key == 'Enter' && title) {
+        if (event.key === 'Enter' && title) {
             addPost(title);
             setInput('');
         }
